@@ -1,4 +1,4 @@
-Deploy static website to S3/CloudFront
+Deploy the static website to S3/CloudFront
 ======================================
 
 .. image:: https://travis-ci.org/jonls/s3-deploy-website.svg?branch=master
@@ -90,7 +90,7 @@ Configuration file
 **cloudfront_distribution_id**
     The CloudFront distribution to invalidate after uploading new files. Only
     files that were changed will be invalidated. You have to allow the
-    action ``cloudfront:CreateInvalidation``.
+    action ``CloudFront: CreateInvalidation``.
 
 **cache_rules**
     A list of rules to determine the cache configuration of the uploaded files.
@@ -116,7 +116,7 @@ the options supported by s3_website are slightly different.
 
 .. _s3_website: https://github.com/laurilehmijoki/s3_website
 
-Licence
+License
 -------
 
 MIT.
